@@ -6,7 +6,7 @@ nix flake that provides https://github.com/samm-git/aws-vpn-client/pull/16
 
 ```nix
 {
-  inputs.awsvpnclient.url = "github:ymatsiuk/awsvpnclient";
+  inputs.awsvpnclient.url = "github:they4kman/aws-vpn-client-flake";
   outputs = { self, nixpkgs, awsvpnclient }:
     let
       system = "x86_64-linux";
