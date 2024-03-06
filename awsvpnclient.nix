@@ -14,7 +14,7 @@ buildGoModule rec {
     owner = "they4kman";
     repo = "aws-vpn-client";
     rev = "${version}";
-    sha256 = "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=";
+    sha256 = "sha256-XFSe/krgpY7AypCSVo57TpYXHOlU9ms3eLBhKhKYUyU=";
   };
 
   vendorHash = "sha256-602xj0ffJXQW//cQeByJjtQnU0NjqOrZWTCWLLhqMm0=";
